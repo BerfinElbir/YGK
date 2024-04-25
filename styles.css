@@ -1,0 +1,106 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url('depositphotos_9171620-stock-illustration-seamless-wave-illustration.jpg');
+  background-size: auto; 
+  background-position: center; 
+  justify-content: center;
+  align-items: center;
+  }
+  
+
+.centered {
+  text-align: center;
+  color: #070707;
+}
+
+.centered h1 {
+  color: white;
+  font-size: 500px;
+}
+.link-white {
+  color: white;
+}
+.no-hover:hover {
+  color: white;
+}  
+
+.photo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-container img.wide-photo {
+  display: block;
+  width: 100%; 
+}
+
+.photo-container h1 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  margin: 0;
+}
+.centered-text {
+  position: center;
+  top: 0.1%;
+  left: 0.1%;
+  right: 0.1%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(2, 16, 38);
+  margin: 0;
+}
+.custom-footer {
+  background-color: white; 
+  font-size: 20px;
+}
+
+.custom-footer .list-unstyled {
+  margin: 0; 
+  padding: 0; 
+}
+
+.custom-footer .list-unstyled li {
+  margin-bottom: 1px;
+}
+
+.custom-footer .list-unstyled li a {
+  color: black; /* Link rengi */
+}
+
+.custom-footer .list-unstyled li a:hover {
+  text-decoration: none; 
+}
+.container {
+  background-color: rgba(132, 152, 232, 0.536); 
+  border-radius: 40px; 
+  padding: 30px; 
+  margin: auto;
+  text-align: right;
+  font-size:100%
+}
+.container2 {
+  background-color:  rgba(132, 152, 232, 0.536);
+  border-radius: 40px; /* Köşeleri yuvarla */
+  padding: 30px; 
+  margin: auto;
+  text-align: center;
+  font-size:100%
+}
+.jumbotron{
+background-color:rgba(253, 253, 253, 0.636);
+}
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+  
+  
+
+  
+  
